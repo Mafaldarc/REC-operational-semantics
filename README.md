@@ -6,8 +6,6 @@
 
 ## Test examples:
 
----
-
 **example1.txt** if (z) then x+y else 0
 
 **example2.txt** Recursive function f1(x) = f(x)+1
