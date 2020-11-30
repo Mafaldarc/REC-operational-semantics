@@ -1,0 +1,1 @@
+interp [("x",2),("y",4),("z",2)] [("f", ["x","y","z"], ( IfElse (Var "z") (Add (Var "x") (Var "y")) (Num 0)))] (Function "f" [Var "x",Var "y", Var "z"])

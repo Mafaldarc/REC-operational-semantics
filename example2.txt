@@ -1,0 +1,1 @@
+interp [("x",2)] [ ("f",["x"], Add (Function "f" [Var "x"]) (Num 1))] (Function "f" [Var "x"])

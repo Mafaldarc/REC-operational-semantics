@@ -1,0 +1,1 @@
+interp [("x",6)] [ ("f1",["x"], (IfElse (Var "x") (Num 0) (IfElse (Sub (Var "x") (Num 1)) (Num 1) (Add (Function "f1" [Sub (Var "x") (Num 1)]) (Function "f1" [Sub (Var "x") (Num 2)])))))] (Function "f1" [Var "x"])
